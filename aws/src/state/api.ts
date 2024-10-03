@@ -1,5 +1,5 @@
 import { createApi , fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { LargeNumberLike } from "crypto";
+
 
 export interface Product {
     productId: string;
@@ -29,7 +29,7 @@ export interface PurchaseSummary {
 }
 
 export interface Expensesummary {
-    expenseSummerId : String;
+    expenseSummerId : string;
     totalExpenses:number;
     date:string;
 }

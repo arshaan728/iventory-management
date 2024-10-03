@@ -4,7 +4,7 @@ import Navbar from '@/app/(components)/Navbar';
 import Sidebar from "./Sidebar";
 import StoreProvider, { useAppSelector } from "./redux";
 
-type Props={}
+
 
 const DashboardLayout = ({children}:{children: React.ReactNode}) =>{
     const isSidebarCollapsed = useAppSelector(
