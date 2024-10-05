@@ -3,7 +3,7 @@
 import { useGetProductsQuery } from "@/state/api";
 import Header from "../Header";
 import { DataGrid, GridColDef} from "@mui/x-data-grid";
-import { rowSelectionStateInitializer } from "@mui/x-data-grid/internals";
+
 
 const columns: GridColDef[]= [
     {field : "productId", headerName : "ID", width:90},

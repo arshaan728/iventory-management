@@ -1,4 +1,4 @@
-import { PurchaseSummary, useGetDashboardMetricsQuery } from "@/state/api";
+import {  useGetDashboardMetricsQuery } from "@/state/api";
 import React from "react";
 import numeral from 'numeral';
 import { TrendingDown, TrendingUp } from "lucide-react";
