@@ -2,7 +2,7 @@
 
 import {Menu, Bell , Sun , Settings, Moon} from "lucide-react";
 import React from "react";
-import Image from "next/image";
+
 import Link from "next/link";
 import { useDispatch } from "react-redux";
 import { useAppSelector } from "@/app/redux";
